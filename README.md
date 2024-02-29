@@ -46,3 +46,5 @@ Importe os endpoints para o Insomnia
 ```
 ./Insomnia_2024-02-29.json (dentro dos arquivos do projeto)
 ```
+
+<img src="https://i.ibb.co/C7Jff3Q/Sem-t-tulo00.png">
