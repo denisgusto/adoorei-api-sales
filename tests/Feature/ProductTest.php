@@ -10,7 +10,7 @@ test('get list of prodcts', function () {
         ->assertJson([
             'data' => [
                 [
-                    'id' => $product->id,
+                    'product_id' => $product->id,
                     'name' => $product->name,
                     'description' => $product->description,
                 ]
@@ -25,7 +25,7 @@ test('get a product', function () {
         ->assertStatus(200)
         ->assertJson([
             'data' => [
-                'id' => $product->id,
+                'product_id' => $product->id,
                 'name' => $product->name,
                 'description' => $product->description,
             ]
